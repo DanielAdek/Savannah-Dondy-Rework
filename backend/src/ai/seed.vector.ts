@@ -1,5 +1,6 @@
 import { PoolConfig } from "pg";
-import { RecursiveCharacterTextSplitter } from "langchain/text_splitter";
+import { RecursiveCharacterTextSplitter } from "@langchain/textsplitters";
+import { TextLoader } from "langchain/document_loaders/fs/text";
 import { TypeORMVectorStore } from "@langchain/community/vectorstores/typeorm";
 import { HuggingFaceTransformersEmbeddings } from "@langchain/community/embeddings/huggingface_transformers";
 
@@ -9,17 +10,29 @@ const embeddings = new HuggingFaceTransformersEmbeddings({
   model: "Xenova/all-MiniLM-L6-v2"
 });
 
-const text = fetch("./kb.txt");
-
-async function initVectorConnection() {
+async function seedVectorData() {
   try {
-    return await TypeORMVectorStore.fromDataSource(embeddings, {
-      postgresConnectionOptions: typeormConfigManager as PoolConfig,
-      tableName: "knowledge_base",
+    const loader = new TextLoader("src/ai/kb.txt");
+    const text = await loader.load() as any;
+
+    const textSplitter = new RecursiveCharacterTextSplitter({
+      chunkOverlap: 20,
+      chunkSize: 200,
+      separators: ["\n\n", "\n", " ", ""],
+      keepSeparator: false
     });
+
+    const document = await textSplitter.createDocuments(text)
+
+    // return await TypeORMVectorStore.fromDataSource(embeddings, {
+    //   postgresConnectionOptions: typeormConfigManager as PoolConfig,
+    //   tableName: "knowledge_base",
+    // });
+
+    console.log(document);
   } catch (error) {
     console.error(`Vector Error: ${error.message}`);
   }
 }
 
-export const vectorStore = initVectorConnection();
+export const vectorStore = seedVectorData();
