@@ -25,5 +25,4 @@ export class CreateChat1753169872819 implements MigrationInterface {
 		// DROP: The chat_model table
 		await queryRunner.query(`DROP TABLE "chat_model"`);
 	}
-
 }

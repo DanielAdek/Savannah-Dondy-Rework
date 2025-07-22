@@ -1,0 +1,223 @@
+Emporium Store Chatbot Knowledge Base
+
+Platform Information
+
+**Company Name:** Emporium Store
+**Business Model:** Online marketplace connecting buyers and sellers globally
+**Tagline:** "The world's online marketplace where you can buy and sell almost anything"
+**Slogan:** "Find it. Love it. Buy it."
+**Founded:** 2024
+**Headquarters:** Nigeria
+
+Account Management
+
+Registration and Sign In
+- Users can sign up for free accounts
+- Account required for purchasing and selling
+- Sign in/register options available in header
+- User profiles include watchlist, purchase history, and account settings
+
+User Account Features
+- Personal dashboard for managing orders
+- Watchlist to save items for later
+- Order tracking and history
+- Profile management and settings
+
+Product Categories
+
+Emporium Store offers products in these main categories:
+- **Motors:** Automotive parts, accessories, vehicles
+- **Fashion:** Clothing, shoes, accessories for all ages
+- **Electronics:** Tech gadgets, computers, phones, accessories
+- **Collectibles:** Rare items, memorabilia, vintage goods
+- **Sports:** Athletic equipment, fitness gear, outdoor equipment
+- **Health & Beauty:** Personal care, cosmetics, wellness products
+- **Home & Garden:** Furniture, decor, tools, outdoor equipment
+- **Toys:** Children's toys, games, educational products
+- **Business & Industrial:** Professional equipment, office supplies
+
+Shopping Features
+
+Search and Browse
+- Global search bar in header
+- Category-based browsing
+- Filter and sort options available
+- Product recommendations based on browsing
+
+Product Pages
+- High-quality product images
+- Detailed product descriptions
+- Customer reviews and ratings (5-star system)
+- Seller information and ratings
+- Shipping costs and delivery estimates
+- Related and recommended products
+
+Special Sections
+- **Trending Now:** Currently popular items
+- **Most Popular:** Best-selling products
+- **Hot Deals:** Time-limited discounted items
+- **Daily Deals:** Special daily promotions
+
+Pricing and Deals
+
+Regular Pricing
+- Competitive market pricing
+- Price comparison available
+- Original prices shown when items are on sale
+
+Special Offers
+- Daily deals with significant discounts
+- Hot deals with limited-time pricing
+- Seasonal sales and promotions
+- Bundle offers on related items
+
+Shipping Information
+
+Shipping Policies
+- **Free shipping threshold:** Orders over $35
+- Free shipping available on many individual items
+- Shipping costs calculated at checkout
+- Various delivery speed options
+
+Delivery Options
+- Standard shipping (varies by seller)
+- Expedited shipping available
+- International shipping to select countries
+- Tracking provided for all shipments
+
+Payment Methods
+
+- Major credit cards accepted
+- Secure payment processing
+- Multiple payment options available
+- Payment protection for all transactions
+
+Returns and Refunds
+
+Return Policy
+- **Return window:** 30 days from delivery
+- Items must be in original condition
+- Return shipping may apply (varies by seller)
+- Easy return process through user account
+
+Refund Process
+- Full refunds for eligible returns
+- Processing time: 3-5 business days after return received
+- Refunds issued to original payment method
+- Partial refunds for damaged items (case by case)
+
+Buyer Protection
+
+Emporium Store Money Back Guarantee
+- All purchases protected
+- Coverage for items not received
+- Coverage for items significantly not as described
+- Dispute resolution process available
+
+Security Features
+- Secure checkout process
+- Fraud protection
+- Identity verification for high-value transactions
+- Safe communication through platform messaging
+
+Selling on Emporium Store
+
+Getting Started
+- Free to create seller account
+- Simple listing process
+- Various selling formats available
+- Seller dashboard for management
+
+Seller Services
+- Listing creation tools
+- Inventory management
+- Order processing assistance
+- Marketing and promotion tools
+
+Seller Support
+- Seller Center for resources
+- Business seller programs
+- Performance tracking
+- Resolution center for disputes
+
+Customer Support
+
+Help Options
+- Help & Contact section
+- Resolution Center for disputes
+- Comprehensive FAQ section
+- Email and phone support available
+
+Support Topics
+- Account issues
+- Buying and selling help
+- Payment problems
+- Shipping and delivery questions
+- Return and refund assistance
+- Technical support
+
+Policies and Guidelines
+
+User Policies
+- Terms of Service
+- Privacy Policy
+- Cookie Policy
+- Community guidelines
+
+Trading Policies
+- Prohibited items list
+- Seller standards
+- Buyer requirements
+- Dispute resolution procedures
+
+Technical Features
+
+Website Features
+- Mobile-responsive design
+- Advanced search functionality
+- User-friendly interface
+- Secure browsing (HTTPS)
+
+Account Tools
+- Order tracking
+- Message center
+- Feedback system
+- Watchlist management
+
+Common Customer Inquiries
+
+Order Status
+- Orders can be tracked through user account
+- Email notifications sent for status updates
+- Estimated delivery dates provided
+- Contact seller option for specific questions
+
+Payment Issues
+- Payment failures usually due to card issues
+- Alternative payment methods available
+- Billing address verification required
+- Contact support for payment disputes
+
+Item Not Received
+- Check tracking information first
+- Contact seller if tracking shows delivered
+- File claim through Resolution Center if needed
+- Emporium Store Money Back Guarantee applies
+
+Item Not as Described
+- Compare item received with listing description
+- Take photos if item differs significantly
+- Contact seller first for resolution
+- File return request if seller unresponsive
+
+Shipping Costs
+- Free shipping on orders over $35
+- Individual items may have free shipping
+- Costs calculated based on size, weight, and destination
+- International shipping rates vary
+
+Account Problems
+- Password reset available through sign-in page
+- Account verification may be required
+- Contact support for locked accounts
+- Privacy settings can be managed in account
