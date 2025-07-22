@@ -1,8 +1,8 @@
 import { Entity, Column } from 'typeorm';
-import {BaseModel} from "../shared/base.schema";
+import {BaseEntity} from "../shared/base.schema";
 
 @Entity()
-export class ChatModel extends BaseModel {
+export class ChatEntity extends BaseEntity {
   @Column()
   session_id: string;
 

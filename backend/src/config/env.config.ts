@@ -34,7 +34,7 @@ export class EnvManager {
   }
 
   public isProduction() {
-    return this.getEnvValue('NEST_ENV', false) != 'development';
+    return this.getEnvValue('NEST_ENV', false) != 'development' ? { rejectUnauthorized: false } : false;
   }
 }
 

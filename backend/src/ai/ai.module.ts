@@ -1,10 +1,10 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { KbModel } from './kb.schema';
+import { KbEntity } from './kb.entity';
 import { AiService } from './ai.service';
 
 @Module({
-  imports: [TypeOrmModule.forFeature([KbModel])],
+  imports: [TypeOrmModule.forFeature([KbEntity])],
   providers: [AiService]
 })
 export class AiModule {}

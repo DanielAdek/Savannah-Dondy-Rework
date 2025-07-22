@@ -1,8 +1,8 @@
 import { Entity, Column } from 'typeorm';
-import {BaseModel} from "../shared/base.schema";
+import {BaseEntity} from "../shared/base.schema";
 
 @Entity()
-export class ProductModel extends BaseModel {
+export class ProductEntity extends BaseEntity {
   @Column({ length: 100 })
   product_name: string;
 
