@@ -10,7 +10,7 @@ export class Kbvector1753169577958 implements MigrationInterface {
 
 		// Create the knowledge_base table with proper vector column
 		await queryRunner.query(`
-			CREATE TABLE "knowlege_base" (
+			CREATE TABLE "knowledge_base" (
 				"id" uuid NOT NULL DEFAULT uuid_generate_v4(),
 				"vector" vector(384) NOT NULL,
 				"content" text NOT NULL,
