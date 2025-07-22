@@ -1,12 +1,11 @@
 import { Entity, Column } from 'typeorm';
 import { BaseEntity } from '../shared/base.schema';
 
-@Entity("knowlege_base")
+@Entity({ name: "knowledge_base"})
 export class KbEntity extends BaseEntity {
   @Column({
-    type: 'vector' as any,
+    type: 'text',
     nullable: false,
-    length: 384,
     transformer: {
       to: (value: number[]) => `[${value.join(',')}]`,
       from: (value: string) => {

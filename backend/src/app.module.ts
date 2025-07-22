@@ -5,11 +5,12 @@ import { ChatModule } from './chat/chat.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { typeormConfigManager } from './config/db.config';
 import { AiModule } from './ai/ai.module';
+import { DataSource } from 'typeorm';
 
 @Module({
   imports: [
     TypeOrmModule.forRoot({
-      ...typeormConfigManager
+      ...typeormConfigManager.getTypeOrmConfig()
     }),
     ProductModule,
     ChatModule,

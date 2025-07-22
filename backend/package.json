@@ -26,6 +26,7 @@
     "migration:shw": "typeorm-ts-node-commonjs migration:show -d src/config/db.config.ts"
   },
   "dependencies": {
+    "@huggingface/transformers": "^3.6.3",
     "@langchain/community": "^0.3.49",
     "@langchain/core": "^0.3.63",
     "@langchain/openai": "^0.6.1",

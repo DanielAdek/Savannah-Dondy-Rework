@@ -45,14 +45,3 @@ export class Kbvector1753169577958 implements MigrationInterface {
 	}
 
 }
-
-
-// CREATE TABLE "knowledge_base" (
-// 	"id" uuid NOT NULL DEFAULT uuid_generate_v4(),
-// 	"vector" vector(384) NOT NULL,
-// 	"content" text NOT NULL,
-// 	"metadata" jsonb,
-// 	"created_at" TIMESTAMP NOT NULL DEFAULT now(),
-// 	"updated_at" TIMESTAMP NOT NULL DEFAULT now(),
-// 	CONSTRAINT "PK_knowledge_base" PRIMARY KEY ("id")
-// )
