@@ -4,7 +4,7 @@ import { BaseEntity } from '../shared/base.schema';
 @Entity({ name: "knowledge_base"})
 export class KbEntity extends BaseEntity {
   @Column({
-    type: 'text',
+    type: 'text' as any,
     nullable: false,
     transformer: {
       to: (value: number[]) => `[${value.join(',')}]`,
